@@ -2,7 +2,8 @@ name: Deploy asg
 
 on:
   push:
-    branches: [ "main" ]
+    paths:
+      - "asg/" 
 
 
 jobs:
