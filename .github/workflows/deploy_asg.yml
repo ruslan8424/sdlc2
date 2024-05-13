@@ -3,7 +3,7 @@ name: Deploy asg
 on:
   push:
     paths:
-      - "asg/" 
+      - "asg/**" 
 #
 
 jobs:
