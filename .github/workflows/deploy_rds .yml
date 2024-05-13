@@ -5,7 +5,7 @@ on:
     workflows:
       - "deploy vpc"
     type:
-      completed  
+      - completed  
 
 jobs:
   build:
