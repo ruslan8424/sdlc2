@@ -26,7 +26,18 @@ jobs:
       - name: Plan 
         working-directory: vpc
         run: |
-          terraform plan        
+          terraform plan
+         
+      - name: Apply
+        working-directory: vpc
+        run: |
+          echo "applying"
+          #terraform apply -auto-approve
+            
+
+           
+             
+          
 
 
 
