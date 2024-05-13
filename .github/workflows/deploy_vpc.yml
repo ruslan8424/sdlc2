@@ -2,8 +2,9 @@ name: Deploy vpc
 
 on:
   push:
-    paths:
-      - "vpc/**" 
+    branches:
+      - "main"
+      - "master" 
 
 
 jobs:
